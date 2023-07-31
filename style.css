@@ -193,6 +193,17 @@ position:relative;
 	
 }
 
+/* Default styles for all screen sizes */
+.gallery-item {
+  /* Your existing styles for gallery items */
+}
+
+/* Media query for mobile devices (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  .gallery-item {
+    flex-basis: 100%; /* Full width on small screens */
+  }
+}
 
 
 
